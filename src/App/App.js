@@ -20,7 +20,7 @@ function App() {
         <Cards
           title="Coin Toss"
           imageUrl={CointTossMobile}
-          body="Coin Toss is an app that provides users a list of the top seven trending cryptocurrencies on Coin Gecko. Data retrieved via the Coin Gecko API is displayed on each listed coins 'detail' page. After reading and analyzing this data, users can then cast their vote whether they believe the coin is worth purchasing."
+          body="Coin Toss is an app that provides users a list of the top seven trending cryptocurrencies on Coin Gecko. Users have the ability to cast votes based on whether or not they believe the coin is worth purchasing."
           link={"https://cointoss-client.vercel.app/"}
         />
         <Cards

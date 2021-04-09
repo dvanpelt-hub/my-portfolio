@@ -13,6 +13,10 @@ footer h3 {
   background-color: beige;
 }
 
+.projects-cards {
+  margin-top: 2rem;
+}
+
 @media only screen and (min-width: 321px) {
   /* Larger mobile styles (wider than 320 pixels) */
 }
@@ -21,6 +25,7 @@ footer h3 {
   /* Tablet styles (wider than 600 pixels) */
   .projects-cards {
     display: flex;
+    justify-content: space-evenly;
   }
 }
 
