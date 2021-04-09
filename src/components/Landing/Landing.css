@@ -1,0 +1,23 @@
+header {
+  height: 100vh;
+  padding: 20px;
+  background-color: rgb(72, 95, 72);
+}
+
+header h1,
+header h2 {
+  margin: 0;
+  position: relative;
+  font-size: 20px;
+  text-align: center;
+}
+
+header h1 {
+  top: 15%;
+}
+
+header h2 {
+  top: 25%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}

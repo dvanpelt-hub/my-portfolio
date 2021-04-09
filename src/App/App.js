@@ -1,6 +1,7 @@
 import React from "react";
 // import { Switch, Route } from "react-router-dom";
 import Nav from "../components/Nav/Nav";
+import Landing from "../components/Landing/Landing";
 import About from "../components/About/About";
 import Cards from "../components/Cards/Cards";
 import Contact from "../components/Contact/Contact";
@@ -12,9 +13,7 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <header>
-        <h1>I am glad you're here</h1>
-      </header>
+      <Landing />
       <About />
       <div className="projects-cards">
         <Cards
