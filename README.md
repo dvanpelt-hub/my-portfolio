@@ -1,1 +1,1 @@
-# Dan Vanpelt's Portfolio
+# Daniel Vanpelt's Portfolio
