@@ -9,6 +9,8 @@
   transition: 0.4s;
   animation: ease-in;
   margin-bottom: 30px;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .card-container:hover {
@@ -19,7 +21,12 @@
 
 .image-container img {
   overflow: hidden;
-  height: 200px;
+}
+
+.card-image {
+  padding: 10px;
+  height: auto;
+  width: 140px;
 }
 
 .card-content {

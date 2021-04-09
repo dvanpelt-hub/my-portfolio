@@ -8,10 +8,21 @@
   text-align: center;
 }
 
+.imageContainer h2 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
 .aboutInfo {
+  color: white;
   margin: 0;
   position: relative;
-  top: 50%;
+  top: 5%;
   font-size: 12px;
   text-align: center;
+}
+
+.profile {
+  width: 270px;
+  height: auto;
 }
