@@ -5,12 +5,13 @@
 }
 
 footer h3 {
+  color: white;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   position: relative;
   font-size: 20px;
   text-align: center;
-  background-color: beige;
+  background-color: rgb(27, 6, 23);
 }
 
 .projects-cards {
