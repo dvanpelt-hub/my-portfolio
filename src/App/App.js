@@ -16,40 +16,22 @@ function App() {
       <About />
       <div className="projects-cards">
         <Cards
-          title="Card Title"
+          title="Coin Toss"
           imageUrl={Mobile}
-          body="Consequat officia dolore nostrud non Lorem adipisicing sit. Labore laboris
-      consequat laborum sit laboris non ut deserunt eiusmod id nulla mollit
-      aliqua id. Duis laborum occaecat pariatur aute. Est aliquip mollit laboris
-      reprehenderit Lorem in anim aliqua esse in fugiat. Pariatur dolore dolore
-      sunt quis est anim culpa esse sit irure exercitation eu proident.
-      Exercitation sit id cupidatat ex incididunt laborum duis et laboris qui
-      dolor quis cillum nostrud. Pariatur consequat voluptate pariatur id enim
-      tempor Lorem."
+          body="Coin Toss is an app that provides users a list of the top seven trending cryptocurrencies on Coin Gecko. Data retrieved via the Coin Gecko API is displayed on each listed coins 'detail' page. After reading and analyzing this data, users can then cast their vote whether they believe the coin is worth purchasing."
+          link={"https://cointoss-client.vercel.app/"}
         />
         <Cards
-          title="Card Title"
+          title="Pocket Stocks"
           imageUrl={Mobile}
-          body="Consequat officia dolore nostrud non Lorem adipisicing sit. Labore laboris
-      consequat laborum sit laboris non ut deserunt eiusmod id nulla mollit
-      aliqua id. Duis laborum occaecat pariatur aute. Est aliquip mollit laboris
-      reprehenderit Lorem in anim aliqua esse in fugiat. Pariatur dolore dolore
-      sunt quis est anim culpa esse sit irure exercitation eu proident.
-      Exercitation sit id cupidatat ex incididunt laborum duis et laboris qui
-      dolor quis cillum nostrud. Pariatur consequat voluptate pariatur id enim
-      tempor Lorem."
+          body="Pocket Stocks is a PERN stack application which allows users to view trending stocks and discuss their performance."
+          link={"https://pocket-stocks-client.vercel.app/"}
         />
         <Cards
-          title="Card Title"
+          title="Rent Flow"
           imageUrl={Mobile}
-          body="Consequat officia dolore nostrud non Lorem adipisicing sit. Labore laboris
-      consequat laborum sit laboris non ut deserunt eiusmod id nulla mollit
-      aliqua id. Duis laborum occaecat pariatur aute. Est aliquip mollit laboris
-      reprehenderit Lorem in anim aliqua esse in fugiat. Pariatur dolore dolore
-      sunt quis est anim culpa esse sit irure exercitation eu proident.
-      Exercitation sit id cupidatat ex incididunt laborum duis et laboris qui
-      dolor quis cillum nostrud. Pariatur consequat voluptate pariatur id enim
-      tempor Lorem."
+          body="Rent-flow provides users the ability to search for rental property comps in relation to a specified address. Users can then use the monthly cash-flow calculator to determine their expected profits."
+          link={"https://dvanpelt-hub.github.io/Rent-Flow/"}
         />
       </div>
       <section className="contact-container">
