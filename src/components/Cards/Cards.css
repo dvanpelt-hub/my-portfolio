@@ -3,7 +3,8 @@
   margin-right: auto;
   position: relative;
   text-align: center;
-  width: 300px;
+  width: 250px;
+  height: 510px;
   overflow: hidden;
   box-shadow: 0px 0px 15px -5px;
   transition: 0.4s;
@@ -34,10 +35,15 @@
   margin-top: 0.5rem;
 }
 
-h3,
-p {
+.card-title h3,
+.card-body p {
   margin: 0;
   padding: 0;
+}
+
+h3 {
+  font-weight: bolder;
+  text-shadow: 0px 1px, 1px 0px, 1px 1px;
 }
 
 .card-title {
@@ -59,14 +65,28 @@ p {
   border-radius: 3px;
 }
 
-.btn button:hover {
-  background-color: rgb(43, 48, 46);
-  transform: scale(1.1);
-}
-
 a {
-  text-transform: uppercase;
-  color: rgb(71, 97, 87);
+  color: rgb(32, 31, 31);
   text-decoration: none;
   font-weight: bold;
+}
+
+@media only screen and (min-width: 321px) {
+  /* Larger mobile styles (wider than 320 pixels) */
+}
+
+@media only screen and (min-width: 600px) {
+  /* Tablet styles (wider than 600 pixels) */
+  .card-container {
+    width: 300px;
+    height: 520px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* Large laptop styles (wider than 1024 pixels) */
+}
+
+@media only screen and (min-width: 1140px) {
+  /* Desktop styles (wider than 1140 pixels) */
 }
