@@ -1,0 +1,15 @@
+.nav {
+  height: 2rem;
+  background-color: rgb(61, 75, 77);
+  color: white;
+}
+
+.navContainer {
+  padding-top: 5px;
+}
+
+.navHomeLogo {
+  color: white;
+  text-decoration: none;
+  padding-left: 20px;
+}

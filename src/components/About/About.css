@@ -1,0 +1,17 @@
+.aboutContainer {
+  height: 100vh;
+  padding: 20px;
+  background-color: rgb(67, 89, 90);
+}
+
+.imageContainer {
+  text-align: center;
+}
+
+.aboutInfo {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  font-size: 12px;
+  text-align: center;
+}

@@ -1,0 +1,47 @@
+header {
+  height: 100vh;
+  padding: 20px;
+  background-color: rgb(72, 95, 72);
+}
+
+header h1 {
+  margin: 0;
+  position: relative;
+  top: 35%;
+  font-size: 20px;
+  text-align: center;
+}
+
+.contact-container {
+  height: 50vh;
+  text-align: center;
+  margin: 3rem;
+}
+
+footer h3 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  position: relative;
+  font-size: 20px;
+  text-align: center;
+  background-color: beige;
+}
+
+@media only screen and (min-width: 321px) {
+  /* Larger mobile styles (wider than 320 pixels) */
+}
+
+@media only screen and (min-width: 600px) {
+  /* Tablet styles (wider than 600 pixels) */
+  .projects-cards {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* Large laptop styles (wider than 1024 pixels) */
+}
+
+@media only screen and (min-width: 1140px) {
+  /* Desktop styles (wider than 1140 pixels) */
+}
