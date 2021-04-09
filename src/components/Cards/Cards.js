@@ -5,7 +5,11 @@ export default function Cards(props) {
   return (
     <div className="card-container">
       <div className="image-container">
-        <img src={props.imageUrl} alt="Example project" />
+        <img
+          className="card-image"
+          src={props.imageUrl}
+          alt="Example project"
+        />
       </div>
       <div className="card-content">
         <div className="card-title">

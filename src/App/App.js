@@ -6,8 +6,7 @@ import About from "../components/About/About";
 import Cards from "../components/Cards/Cards";
 import Contact from "../components/Contact/Contact";
 import "./App.css";
-import Mobile from "./snapshots/Coin_Details_Mobile.jpg";
-import Desktop from "./snapshots/Coin_Details_Desktop.jpg";
+import Mobile from "../snapshots/Coin_Details_Mobile.jpg";
 
 function App() {
   return (
@@ -30,7 +29,7 @@ function App() {
         />
         <Cards
           title="Card Title"
-          imageUrl={Desktop}
+          imageUrl={Mobile}
           body="Consequat officia dolore nostrud non Lorem adipisicing sit. Labore laboris
       consequat laborum sit laboris non ut deserunt eiusmod id nulla mollit
       aliqua id. Duis laborum occaecat pariatur aute. Est aliquip mollit laboris
@@ -42,7 +41,7 @@ function App() {
         />
         <Cards
           title="Card Title"
-          imageUrl={Desktop}
+          imageUrl={Mobile}
           body="Consequat officia dolore nostrud non Lorem adipisicing sit. Labore laboris
       consequat laborum sit laboris non ut deserunt eiusmod id nulla mollit
       aliqua id. Duis laborum occaecat pariatur aute. Est aliquip mollit laboris
