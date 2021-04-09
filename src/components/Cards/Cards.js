@@ -21,9 +21,7 @@ export default function Cards(props) {
       </div>
       <div className="btn">
         <button>
-          <a href="https://github.com/dvanpelt-hub/cointoss-client">
-            View more
-          </a>
+          <a href={props.link}>View more</a>
         </button>
       </div>
     </div>
