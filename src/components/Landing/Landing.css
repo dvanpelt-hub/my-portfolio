@@ -107,12 +107,16 @@ header h2 {
   top: 75%;
 }
 
-.view-more-btn {
-  color: white;
-  padding: 10px;
+.view-more-btn,
+.find-link {
   background: none;
-  border: 1px solid white;
   font-size: 16px;
+  padding: 10px;
+  color: white;
+}
+
+.view-more-btn {
+  border: 1px solid white;
 }
 
 .view-more-btn:hover {
