@@ -1,3 +1,7 @@
+header {
+  scroll-padding-top: 100px;
+}
+
 .projects-cards {
   margin-top: 2rem;
   padding-top: 2rem;

@@ -18,7 +18,7 @@ function App() {
       <Landing />
       <About />
       <div className="projects-cards" id="projects">
-        <h2 className="my-projects">My Projects</h2>
+        <h2 className="my-projects">ProjeProjects</h2>
         <Cards
           title="Coin Toss"
           imageUrl={CointTossMobile}

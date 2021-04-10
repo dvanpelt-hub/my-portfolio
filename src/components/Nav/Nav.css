@@ -1,11 +1,12 @@
 .nav {
-  height: 2rem;
   background-color: rgb(16, 18, 19);
   color: white;
-}
-
-.navContainer {
-  padding-top: 5px;
+  height: 2rem;
+  padding-top: 10px;
+  top: 0;
+  position: fixed;
+  background-color: rgb(16, 18, 19);
+  width: 100%;
 }
 
 .navHomeLogo {

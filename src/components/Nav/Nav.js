@@ -6,11 +6,9 @@ export default function Nav() {
   return (
     <>
       <nav className="nav">
-        <div className="navContainer">
-          <Link to="/" className="navHomeLogo">
-            Home
-          </Link>
-        </div>
+        <Link to="/" className="navHomeLogo">
+          Home
+        </Link>
       </nav>
     </>
   );
