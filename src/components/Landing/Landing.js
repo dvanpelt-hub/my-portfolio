@@ -1,11 +1,8 @@
 import React from "react";
+import { Link } from "react-scroll";
 import "./Landing.css";
 
 export default function Landing() {
-  const scrollTo = () => {
-    return <a href="#about">Find out more</a>;
-  };
-
   return (
     <div>
       <div className="background-one" />
@@ -18,9 +15,9 @@ export default function Landing() {
         </div>
         <div className="view-more-btn-container">
           <button className="view-more-btn">
-            <a href="#about" className="find-link">
+            <Link to="about" className="find-link" smooth={true} duration={800}>
               Find out more
-            </a>
+            </Link>
           </button>
         </div>
       </header>

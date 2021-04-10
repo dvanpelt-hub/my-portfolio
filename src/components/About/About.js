@@ -1,5 +1,4 @@
 import React from "react";
-import * as Scroll from "react-scroll";
 import "./About.css";
 import Profile_photo from "../../snapshots/Profile_photo.jpg";
 
