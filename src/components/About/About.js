@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import "./About.css";
 import Profile_photo from "../../snapshots/Profile_photo.jpg";
 
@@ -16,6 +17,18 @@ export default function About() {
         </div>
         <div className="aboutInfo">
           <p>This is the about me section</p>
+        </div>
+        <div className="view-my-projects-btn-container">
+          <button className="view-my-projects-btn">
+            <Link
+              to="projects"
+              className="projects-link"
+              smooth={true}
+              duration={800}
+            >
+              My work
+            </Link>
+          </button>
         </div>
       </div>
     </>

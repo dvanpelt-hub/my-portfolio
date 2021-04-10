@@ -26,3 +26,26 @@
   width: 270px;
   height: auto;
 }
+
+.view-my-projects-btn-container {
+  position: relative;
+  text-align: center;
+  top: 10%;
+}
+
+.view-my-projects-btn,
+.projects-link {
+  background: none;
+  font-size: 16px;
+  padding: 10px;
+  color: white;
+}
+
+.view-my-projects-btn {
+  border: 1px solid white;
+}
+
+.view-my-projects-btn:hover {
+  background-color: rgb(95, 21, 25);
+  cursor: pointer;
+}
