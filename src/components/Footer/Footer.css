@@ -1,0 +1,33 @@
+.footer-container {
+  height: 30vh;
+  background-color: rgb(16, 18, 19);
+}
+
+footer h2 {
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  text-decoration: underline;
+}
+
+footer ul {
+  color: white;
+  padding: 0.5rem;
+  position: relative;
+  font-size: 14px;
+  text-align: center;
+}
+
+footer li {
+  text-decoration: none;
+  padding: 5px;
+}
+
+.footer-container a {
+  color: white;
+}
+
+.github:hover {
+  cursor: pointer;
+}

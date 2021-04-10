@@ -5,6 +5,7 @@ import Landing from "../components/Landing/Landing";
 import About from "../components/About/About";
 import Cards from "../components/Cards/Cards";
 import Contact from "../components/Contact/Contact";
+import Footer from "../components/Footer/Footer";
 import "./App.css";
 import CointTossMobile from "../snapshots/Landing_Page_Mobile.jpg";
 import PocketStocksMobile from "../snapshots/Pocket_Stocks_Mobile.JPG";
@@ -40,9 +41,7 @@ function App() {
       <section className="contact-container">
         <Contact />
       </section>
-      <footer>
-        <h3>Footer</h3>
-      </footer>
+      <Footer />
     </div>
   );
 }

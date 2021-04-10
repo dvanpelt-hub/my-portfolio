@@ -4,11 +4,14 @@ import "./Contact.css";
 export default function Contact() {
   return (
     <div className="contact-info">
+      <h2>Contact Me</h2>
       <p>
-        Ex officia irure amet cillum enim eiusmod quis. Labore ad ipsum esse
-        dolor enim id qui in excepteur fugiat culpa. Ullamco in ipsum enim amet
-        ut. Ea consequat culpa quis Lorem ad sunt voluptate irure ullamco aute
-        ex.
+        If you saw something you like, please reach out to me via one of the
+        contact methods listed below.
+      </p>
+      <p>
+        If not, feel free to check back another time as I will update my
+        portfolio with bigger and better projects as I grow as a developer.
       </p>
     </div>
   );

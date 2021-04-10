@@ -1,5 +1,5 @@
 .aboutContainer {
-  height: 100vh;
+  height: 175vh;
   padding: 20px;
   background-color: rgb(43, 40, 43);
 }
@@ -22,6 +22,10 @@
   text-align: center;
 }
 
+.aboutInfo p {
+  margin-bottom: 20px;
+}
+
 .profile {
   width: 270px;
   height: auto;
@@ -30,7 +34,7 @@
 .view-my-projects-btn-container {
   position: relative;
   text-align: center;
-  top: 10%;
+  top: 7%;
 }
 
 .view-my-projects-btn,
