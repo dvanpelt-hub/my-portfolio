@@ -5,7 +5,7 @@ import Profile_photo from "../../snapshots/Profile_photo.jpg";
 export default function About() {
   return (
     <>
-      <div className="aboutContainer">
+      <div className="aboutContainer" id="about">
         <div className="imageContainer">
           <h2>Who am I?</h2>
           <img
