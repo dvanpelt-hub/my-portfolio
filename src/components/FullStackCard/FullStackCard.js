@@ -1,7 +1,7 @@
 import React from "react";
-import "./Cards.css";
+import "./FullStackCard.css";
 
-export default function Cards(props) {
+export default function FullStackCard(props) {
   return (
     <a href={props.link}>
       <div className="card-container">
@@ -11,6 +11,14 @@ export default function Cards(props) {
             src={props.imageUrl}
             alt="Example project"
           />
+          <div className="language-container">
+            <img className="language1" src={props.reactLogo} alt="React Icon" />
+            <img
+              className="language2"
+              src={props.javascriptLogo}
+              alt="Javascript Icon"
+            />
+          </div>
         </div>
         <div className="card-content">
           <div className="card-title">
