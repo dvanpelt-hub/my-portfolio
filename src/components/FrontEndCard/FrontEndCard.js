@@ -15,8 +15,10 @@ export default function FrontEndCard(props) {
             alt="Example project"
           />
           <div className="language-container">
+            <img className="language1" src={props.HTML5Logo} alt="HTML5 Icon" />
+            <img className="language2" src={props.CSS3Logo} alt="CSS3 Icon" />
             <img
-              className="language1"
+              className="language3"
               src={props.javascriptLogo}
               alt="Javascript Icon"
             />
