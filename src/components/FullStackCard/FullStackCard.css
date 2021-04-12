@@ -1,10 +1,10 @@
 .card-container {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 25px;
+  margin-right: 20px;
   position: relative;
   text-align: center;
-  width: 250px;
-  height: 510px;
+  width: auto;
+  height: auto;
   overflow: hidden;
   box-shadow: 0px 0px 15px -5px;
   transition: 0.4s;
@@ -15,9 +15,20 @@
 }
 
 .card-container:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   box-shadow: 0px 0px 15px 0px;
   cursor: pointer;
+}
+
+.language1,
+.language2,
+.language3,
+.language4,
+.language5,
+.language6 {
+  width: 30px;
+  height: auto;
+  padding: 5px;
 }
 
 .image-container img {
@@ -41,13 +52,18 @@
   padding: 0;
 }
 
+.card-body p {
+  font-size: 15px;
+}
+
 h3 {
+  font-size: 22px;
   font-weight: bolder;
   text-shadow: 0px 1px, 1px 0px, 1px 1px;
 }
 
 .card-title {
-  margin-bottom: 0.5rem;
+  margin: 1rem;
 }
 
 .btn {

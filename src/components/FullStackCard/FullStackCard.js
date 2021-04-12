@@ -21,6 +21,14 @@ export default function FullStackCard(props) {
               src={props.javascriptLogo}
               alt="Javascript Icon"
             />
+            <img
+              className="language3"
+              src={props.NodeJSLogo}
+              alt="NodeJS Icon"
+            />
+            <img className="language4" src={props.PSQLLogo} alt="PSQL Icon" />
+            <img className="language5" src={props.HTML5Logo} alt="HTML5 Icon" />
+            <img className="language6" src={props.CSS3Logo} alt="CSS3 Icon" />
           </div>
         </div>
         <div className="card-content">
