@@ -4,7 +4,7 @@ import "./Landing.css";
 
 export default function Landing() {
   return (
-    <div>
+    <div id="home">
       <div className="background-one" />
       <div className="background-two" />
       <div className="background-three" />

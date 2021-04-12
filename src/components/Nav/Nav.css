@@ -10,9 +10,21 @@
   z-index: 9999;
 }
 
-.navHomeLogo {
+.navHome,
+.navAbout,
+.navProjects,
+.navContact {
   color: white;
   text-decoration: none;
   padding-left: 20px;
   font-size: 12px;
+}
+
+.navHome:hover,
+.navAbout:hover,
+.navProjects:hover,
+.navContact:hover {
+  font-weight: bolder;
+  color: rgb(122, 24, 29);
+  cursor: pointer;
 }
