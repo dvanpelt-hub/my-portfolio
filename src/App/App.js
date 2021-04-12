@@ -25,8 +25,10 @@ function App() {
       <div className="App">
         <Landing />
         <About />
-        <div className="projects-cards" id="projects">
-          <h2 className="my-projects">Projects</h2>
+        <h2 id="projects" className="my-projects">
+          Projects
+        </h2>
+        <div className="projects-cards">
           <FullStackCard
             title="Coin Toss"
             imageUrl={CointTossMobile}

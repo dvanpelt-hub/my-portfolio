@@ -87,22 +87,16 @@ a {
   font-weight: bold;
 }
 
-@media only screen and (min-width: 321px) {
-  /* Larger mobile styles (wider than 320 pixels) */
-}
-
-@media only screen and (min-width: 600px) {
-  /* Tablet styles (wider than 600 pixels) */
+@media only screen and (min-width: 800px) {
   .card-container {
-    width: 300px;
-    height: 520px;
+    width: 230px;
+    height: auto;
   }
 }
 
 @media only screen and (min-width: 1024px) {
-  /* Large laptop styles (wider than 1024 pixels) */
-}
-
-@media only screen and (min-width: 1140px) {
-  /* Desktop styles (wider than 1140 pixels) */
+  .card-container {
+    width: 300px;
+    height: 550px;
+  }
 }
