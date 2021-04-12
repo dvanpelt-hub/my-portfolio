@@ -1,5 +1,5 @@
 .footer-container {
-  height: 30vh;
+  height: 26vh;
   background-color: rgb(16, 18, 19);
 }
 
@@ -27,6 +27,22 @@ footer li {
   color: white;
 }
 
-.github:hover {
+.github:hover,
+.linkedin:hover,
+.email:hover {
   cursor: pointer;
+  color: rgb(167, 22, 22);
+}
+
+@media only screen and (min-width: 600px) {
+  /* Tablet styles (wider than 600 pixels) */
+  footer ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 17px;
+  }
+  .contact-info p {
+    font-size: 20px;
+  }
 }

@@ -7,7 +7,8 @@ export default function Contact() {
       <h2>Contact Me</h2>
       <p>
         If you saw something you like, please reach out to me via one of the
-        contact methods listed below.
+        contact methods listed below. You can also view any of the projects
+        listed above via the Github link below.
       </p>
       <p>
         If not, feel free to check back another time as I will update my

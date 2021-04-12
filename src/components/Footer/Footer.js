@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div className="footer-container">
       <footer>
-        <h2>Links:</h2>
+        <h2>Links</h2>
         <ul>
           <li>
             <a href="https://github.com/dvanpelt-hub" className="github">

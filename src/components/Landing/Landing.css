@@ -60,7 +60,7 @@
     border-color: transparent;
   }
   50% {
-    border-color: rgb(95, 21, 25);
+    border-color: rgb(122, 27, 32);
   }
 }
 
@@ -129,7 +129,7 @@ header h2 {
     top: 40%;
   }
   header h1 {
-    width: 320px;
+    width: 310px;
     font-size: 36px;
     top: 5%;
   }
@@ -149,7 +149,12 @@ header h2 {
 }
 
 @media only screen and (min-width: 1024px) {
-}
-
-@media only screen and (min-width: 1140px) {
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 60%;
+    }
+  }
 }

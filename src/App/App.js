@@ -56,7 +56,7 @@ function App() {
           <FrontEndCard
             title="Rent Flow"
             imageUrl={RentFlow}
-            body="Rent-flow provides users the ability to search for rental property comps in relation to a specified address. Users can then use the monthly cash-flow calculator to determine their expected profits."
+            body="Rent-flow provides users the ability to search for rental property comparisons in relation to a specified address. Users can then use the monthly cash-flow calculator to determine their expected profits."
             link={"https://dvanpelt-hub.github.io/Rent-Flow/"}
             javascriptLogo={JSLogo}
             HTML5Logo={HTML5Logo}
