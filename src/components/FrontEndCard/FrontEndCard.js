@@ -5,6 +5,9 @@ export default function FrontEndCard(props) {
   return (
     <a href={props.link}>
       <div className="card-container">
+        <div className="card-title">
+          <h3>{props.title}</h3>
+        </div>
         <div className="image-container">
           <img
             className="card-image"
@@ -20,9 +23,6 @@ export default function FrontEndCard(props) {
           </div>
         </div>
         <div className="card-content">
-          <div className="card-title">
-            <h3>{props.title}</h3>
-          </div>
           <div className="card-body">
             <p>{props.body}</p>
           </div>
