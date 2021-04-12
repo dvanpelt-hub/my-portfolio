@@ -9,7 +9,8 @@ header {
 .my-projects {
   color: white;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
   font-size: 24px;
 }
 
@@ -19,16 +20,16 @@ header {
 
 @media only screen and (min-width: 600px) {
   /* Tablet styles (wider than 600 pixels) */
+}
+
+@media only screen and (min-width: 800px) {
+  /* Tablet styles (wider than 600 pixels) */
   .projects-cards {
     display: flex;
     justify-content: space-evenly;
   }
-}
-
-@media only screen and (min-width: 1024px) {
-  /* Large laptop styles (wider than 1024 pixels) */
-}
-
-@media only screen and (min-width: 1140px) {
-  /* Desktop styles (wider than 1140 pixels) */
+  .my-projects {
+    font-size: 30px;
+    padding-top: 5rem;
+  }
 }
