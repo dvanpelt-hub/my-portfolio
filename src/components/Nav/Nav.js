@@ -9,6 +9,15 @@ export default function Nav() {
         <Link to="/" className="navHomeLogo">
           Home
         </Link>
+        <Link to="/" className="navHomeLogo">
+          About
+        </Link>
+        <Link to="/" className="navHomeLogo">
+          Projects
+        </Link>
+        <Link to="/" className="navHomeLogo">
+          Contact
+        </Link>
       </nav>
     </>
   );

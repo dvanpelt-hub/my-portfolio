@@ -1,16 +1,18 @@
 .nav {
   background-color: rgb(16, 18, 19);
   color: white;
-  height: 2rem;
-  padding-top: 10px;
+  height: 1.75rem;
+  padding-top: 7px;
   top: 0;
   position: fixed;
   background-color: rgb(16, 18, 19);
   width: 100%;
+  z-index: 9999;
 }
 
 .navHomeLogo {
   color: white;
   text-decoration: none;
   padding-left: 20px;
+  font-size: 12px;
 }

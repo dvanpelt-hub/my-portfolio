@@ -20,51 +20,53 @@ import PSQLLogo from "../snapshots/PSQL-Logo.png";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Nav />
-      <Landing />
-      <About />
-      <div className="projects-cards" id="projects">
-        <h2 className="my-projects">Projects</h2>
-        <FullStackCard
-          title="Coin Toss"
-          imageUrl={CointTossMobile}
-          body="Coin Toss provides users the top seven trending cryptocurrencies on Coin Gecko. They can then cast votes based on whether or not they believe the coin is worth purchasing."
-          link={"https://cointoss-client.vercel.app/"}
-          reactLogo={ReactLogo}
-          javascriptLogo={JSLogo}
-          HTML5Logo={HTML5Logo}
-          CSS3Logo={CSS3Logo}
-          NodeJSLogo={NodeJSLogo}
-          PSQLLogo={PSQLLogo}
-        />
-        <FullStackCard
-          title="Pocket Stocks"
-          imageUrl={PocketStocksMobile}
-          body="Pocket Stocks is a PERN stack application which allows users to view trending stocks and discuss their performance."
-          link={"https://pocket-stocks-client.vercel.app/"}
-          reactLogo={ReactLogo}
-          javascriptLogo={JSLogo}
-          HTML5Logo={HTML5Logo}
-          CSS3Logo={CSS3Logo}
-          NodeJSLogo={NodeJSLogo}
-          PSQLLogo={PSQLLogo}
-        />
-        <FrontEndCard
-          title="Rent Flow"
-          imageUrl={RentFlow}
-          body="Rent-flow provides users the ability to search for rental property comps in relation to a specified address. Users can then use the monthly cash-flow calculator to determine their expected profits."
-          link={"https://dvanpelt-hub.github.io/Rent-Flow/"}
-          javascriptLogo={JSLogo}
-          HTML5Logo={HTML5Logo}
-          CSS3Logo={CSS3Logo}
-        />
+      <div className="App">
+        <Landing />
+        <About />
+        <div className="projects-cards" id="projects">
+          <h2 className="my-projects">Projects</h2>
+          <FullStackCard
+            title="Coin Toss"
+            imageUrl={CointTossMobile}
+            body="Coin Toss provides users the top seven trending cryptocurrencies on Coin Gecko. They can then cast votes based on whether or not they believe the coin is worth purchasing."
+            link={"https://cointoss-client.vercel.app/"}
+            reactLogo={ReactLogo}
+            javascriptLogo={JSLogo}
+            HTML5Logo={HTML5Logo}
+            CSS3Logo={CSS3Logo}
+            NodeJSLogo={NodeJSLogo}
+            PSQLLogo={PSQLLogo}
+          />
+          <FullStackCard
+            title="Pocket Stocks"
+            imageUrl={PocketStocksMobile}
+            body="Pocket Stocks is a PERN stack application which allows users to view trending stocks and discuss their performance."
+            link={"https://pocket-stocks-client.vercel.app/"}
+            reactLogo={ReactLogo}
+            javascriptLogo={JSLogo}
+            HTML5Logo={HTML5Logo}
+            CSS3Logo={CSS3Logo}
+            NodeJSLogo={NodeJSLogo}
+            PSQLLogo={PSQLLogo}
+          />
+          <FrontEndCard
+            title="Rent Flow"
+            imageUrl={RentFlow}
+            body="Rent-flow provides users the ability to search for rental property comps in relation to a specified address. Users can then use the monthly cash-flow calculator to determine their expected profits."
+            link={"https://dvanpelt-hub.github.io/Rent-Flow/"}
+            javascriptLogo={JSLogo}
+            HTML5Logo={HTML5Logo}
+            CSS3Logo={CSS3Logo}
+          />
+        </div>
+        <section className="contact-container">
+          <Contact />
+        </section>
+        <Footer />
       </div>
-      <section className="contact-container">
-        <Contact />
-      </section>
-      <Footer />
-    </div>
+    </>
   );
 }
 
