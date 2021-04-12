@@ -1,5 +1,5 @@
 .aboutContainer {
-  height: 175vh;
+  height: 165vh;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
@@ -11,8 +11,15 @@
   text-align: center;
 }
 
-.imageContainer h2 {
+.aboutContainer h2 {
   color: white;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+hr {
+  width: 100px;
+  margin: auto;
   margin-bottom: 1rem;
 }
 
@@ -26,6 +33,7 @@
 }
 
 .aboutInfo p {
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 
@@ -37,7 +45,7 @@
 .view-my-projects-btn-container {
   position: relative;
   text-align: center;
-  top: 7%;
+  top: 0%;
 }
 
 .view-my-projects-btn,
@@ -55,4 +63,129 @@
 .view-my-projects-btn:hover {
   background-color: rgb(95, 21, 25);
   cursor: pointer;
+}
+
+@media only screen and (min-width: 580px) {
+  .aboutContainer {
+    height: 85vh;
+  }
+  hr {
+    width: 120px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .aboutContainer {
+    height: 100vh;
+  }
+
+  .aboutInfo {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    font-size: 18px;
+  }
+  .aboutContainer h2 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .aboutContainer {
+    height: 80vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 90px;
+    background-color: rgb(43, 40, 43);
+  }
+  .infoContainer {
+    display: flex;
+  }
+  .aboutInfo {
+    margin-top: 0;
+  }
+  .aboutInfo p {
+    margin-top: 0;
+    text-align: left;
+    font-size: 18px;
+  }
+  .profile {
+    width: 360px;
+    height: auto;
+    margin-left: 2rem;
+  }
+  .projects-link {
+    font-size: 18px;
+    padding: 10px;
+  }
+  hr {
+    margin-top: 1rem;
+  }
+}
+@media only screen and (min-width: 875px) {
+  .aboutInfo p {
+    font-size: 19px;
+  }
+  .profile {
+    width: 400px;
+    height: auto;
+    margin-left: 2rem;
+  }
+  .view-my-projects-btn-container {
+    margin-top: 3rem;
+  }
+}
+@media only screen and (min-width: 950px) {
+  .aboutContainer {
+    height: 90vh;
+  }
+  .aboutInfo p {
+    font-size: 22px;
+  }
+  .profile {
+    width: 420px;
+    height: auto;
+  }
+  .projects-link {
+    font-size: 18px;
+    padding: 10px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .aboutContainer {
+    height: 110vh;
+  }
+  .infoContainer {
+    justify-content: space-around;
+  }
+  .aboutInfo p {
+    padding-top: 2rem;
+    font-size: 26px;
+    width: 500px;
+    text-align: center;
+  }
+  .profile {
+    margin-left: 7rem;
+    width: 550px;
+    height: auto;
+  }
+  .aboutContainer h2 {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 2rem;
+  }
+  .projects-link {
+    font-size: 22px;
+    padding: 10px;
+  }
+  hr {
+    width: 200px;
+    margin-bottom: 3rem;
+  }
+  .view-my-projects-btn {
+    padding: 1.25rem;
+  }
 }
