@@ -10,7 +10,7 @@ export default function Landing() {
       <div className="background-three" />
       <header>
         <div className="landing-content">
-          <h1>Daniel Vanpelt</h1>
+          <h1>Daniel VanPelt</h1>
           <h2>A full-stack developer who is glad you're here...</h2>
         </div>
         <div className="view-more-btn-container">

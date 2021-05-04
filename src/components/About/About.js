@@ -20,24 +20,26 @@ export default function About() {
             </div>
             <div className="aboutInfo">
               <p>
-                A full-stack web developer and Thinkful bootcamp graduate who is
-                proficient in HTML5, CSS3, React, and NodeJS. Over the past nine
-                months, I have learned a variety of languages and built several
-                PERN stack applications which greatly improved my front and
-                back-end capabilities. As a passionate web developer, I am
-                always seeking opportunities to work and collaborate with
-                others. Having worked effectively in team settings in the past,
-                I understand the importance of communication and the value
-                gained from listening to and learning from peers.
+                Hello! My name is Daniel I am a full-stack web developer
+                specializing in front and back-end languages and technologies.
+                Over the past year I have developed and exercised my skills as a
+                full-stack developer, leading to the production of several
+                full-stack applications and projects. My passion for software
+                development has led to a keen interest in the latest
+                technologies and languages within the industry and an ability to
+                learn quickly and efficiently. Having worked in team settings in
+                the past, I understand the importance of communication and the
+                value gained from listening to and learning from peers.
               </p>
               <p>
-                Prior to my career change, I served in the US Army and worked
-                extensively as a government and military contractor. Throughout
-                the past 10 years, I participated in multiple overseas
-                deployments and became an adaptable and effective analyst within
-                the Intelligence community. This experience rewarded me with an
-                extensive set of analytical, technical, and training skills
-                which I continue to utilize within my work.
+                Prior to my career transition into software development, I had
+                an extensive career serving and contracting with the US military
+                and several government agencies. Throughout the past 10 years, I
+                participated in multiple overseas deployments and became an
+                adaptable and effective analyst within the Intelligence
+                Community. This experience rewarded me with an extensive set of
+                analytical, technical, and training skills which I continue to
+                utilize within my work.
               </p>
             </div>
           </div>
