@@ -1,5 +1,4 @@
 import React from "react";
-// import { Switch, Route } from "react-router-dom";
 import Nav from "../components/Nav/Nav";
 import Landing from "../components/Landing/Landing";
 import About from "../components/About/About";
@@ -7,7 +6,7 @@ import FullStackCard from "../components/FullStackCard/FullStackCard";
 import FrontEndCard from "../components/FrontEndCard/FrontEndCard";
 import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
-import "./App.css";
+import JouleActiveMobile from "../snapshots/Joule_Active_Mobile.jpg";
 import CointTossMobile from "../snapshots/Landing_Page_Mobile.jpg";
 import PocketStocksMobile from "../snapshots/Pocket_Stocks_Mobile.JPG";
 import RentFlow from "../snapshots/Rent_Flow.JPG";
@@ -17,6 +16,7 @@ import HTML5Logo from "../snapshots/HTML-5-Logo.png";
 import CSS3Logo from "../snapshots/CSS3-Logo.png";
 import NodeJSLogo from "../snapshots/NodeJS-Logo.png";
 import PSQLLogo from "../snapshots/PSQL-Logo.png";
+import "./App.css";
 
 function App() {
   return (
@@ -31,7 +31,7 @@ function App() {
         <div className="projects-cards">
           <FrontEndCard
             title="Joule Active"
-            imageUrl={JouleActive}
+            imageUrl={JouleActiveMobile}
             body="Joule Active is a team comprised of gym and fitness enthusiasts whose objective is to provide affordable, quality, and `fresh` looking gear that lets you focus your energy on working out rather than everything else."
             link={"https://joule-active-client.vercell.app/"}
             reactLogo={ReactLogo}
