@@ -29,6 +29,16 @@ function App() {
           Projects
         </h2>
         <div className="projects-cards">
+          <FrontEndCard
+            title="Joule Active"
+            imageUrl={JouleActive}
+            body="Joule Active is a team comprised of gym and fitness enthusiasts whose objective is to provide affordable, quality, and `fresh` looking gear that lets you focus your energy on working out rather than everything else."
+            link={"https://joule-active-client.vercell.app/"}
+            reactLogo={ReactLogo}
+            javascriptLogo={JSLogo}
+            HTML5Logo={HTML5Logo}
+            CSS3Logo={CSS3Logo}
+          />
           <FullStackCard
             title="Coin Toss"
             imageUrl={CointTossMobile}
