@@ -29,7 +29,7 @@ function App() {
           Projects
         </h2>
         <div className="projects-cards">
-          <FrontEndCard
+          <FullStackCard
             title="Joule Active"
             imageUrl={JouleActiveMobile}
             body="Joule Active is a team comprised of gym and fitness enthusiasts whose objective is to provide affordable, quality, and `fresh` looking gear that lets you focus your energy on working out rather than everything else."
@@ -38,6 +38,8 @@ function App() {
             javascriptLogo={JSLogo}
             HTML5Logo={HTML5Logo}
             CSS3Logo={CSS3Logo}
+            NodeJSLogo={NodeJSLogo}
+            PSQLLogo={PSQLLogo}
           />
           <FullStackCard
             title="Coin Toss"
