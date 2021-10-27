@@ -3,7 +3,6 @@ import Nav from "../components/Nav/Nav";
 import Landing from "../components/Landing/Landing";
 import About from "../components/About/About";
 import FullStackCard from "../components/FullStackCard/FullStackCard";
-import FrontEndCard from "../components/FrontEndCard/FrontEndCard";
 import Contact from "../components/Contact/Contact";
 import Footer from "../components/Footer/Footer";
 import JouleActiveMobile from "../snapshots/Joule_Active_Mobile.JPG";
@@ -64,15 +63,6 @@ function App() {
             CSS3Logo={CSS3Logo}
             NodeJSLogo={NodeJSLogo}
             PSQLLogo={PSQLLogo}
-          />
-          <FrontEndCard
-            title="Rent Flow"
-            imageUrl={RentFlow}
-            body="Rent-flow provides users the ability to search for rental property comparisons in relation to a specified address. Users can then use the monthly cash-flow calculator to determine their expected profits."
-            link={"https://dvanpelt-hub.github.io/Rent-Flow/"}
-            javascriptLogo={JSLogo}
-            HTML5Logo={HTML5Logo}
-            CSS3Logo={CSS3Logo}
           />
         </div>
         <section className="contact-container">
